@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ALIMI DIGITAL - Premium digital solutions, web design, and development by Atdhe Alimi">
+    <meta name="keywords" content="web design, web development, digital solutions, portfolio">
+    <meta name="author" content="Atdhe Alimi">
+    <meta name="theme-color" content="#0b0b0f">
+    
+    <title>ALIMI DIGITAL - Premium Web Design & Development</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Background Blobs -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <span class="nav-text">Home</span>
+                    <span class="nav-underline"></span>
+                </a>
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <span class="nav-text">Projects</span>
+                    <span class="nav-underline"></span>
+                </a>
+                <a href="#about" class="nav-link" data-section="about">
+                    <span class="nav-text">About</span>
+                    <span class="nav-underline"></span>
+                </a>
+                <a href="#contact" class="nav-link" data-section="contact">
+                    <span class="nav-text">Contact</span>
+                    <span class="nav-underline"></span>
+                </a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero-section">
+        <div class="hero-gradient-glow"></div>
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-word">ALIMI</span>
+                <span class="title-word">DIGITAL SOLUTIONS</span>
+            </h1>
+            <p class="hero-subtitle">Digital Solutions • Web Design • Development</p>
+            
+            <div class="hero-cta-group">
+                <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                    <span>View Projects</span>
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    <span>Get in Touch</span>
+                </button>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Crafted digital experiences for premium brands & trusted by:</p>
+
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-project="mhra">
+                    <div class="project-image">
+                        <img src="assets/img/project-mhra.png" alt="MHRA Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MHRA</h3>
+                        <p class="project-description">Macedonia's leading HR association uniting top organizations. Premium events connecting industry leaders globally—talent development and business excellence.</p>
+                        <div class="project-tags">
+                            <span class="tag">Association</span>
+                            <span class="tag">Events</span>
+                        </div>
+                        <a href="https://www.mhra.mk" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit Project
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-project="mhbevents">
+                    <div class="project-image">
+                        <img src="assets/img/project-mhbevents.png" alt="MHB Events Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MHB Events</h3>
+                        <p class="project-description">Exclusive masterclass on balance, success, and well-being. Bringing professionals together for inspiring insights on management, health, and beauty through elegant networking.</p>
+                        <div class="project-tags">
+                            <span class="tag">Masterclass</span>
+                            <span class="tag">Professional Event</span>
+                        </div>
+                        <a href="https://www.mhbevents.mk" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit Project
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card" data-project="mhraconf">
+                    <div class="project-image">
+                        <img src="assets/img/project-mhraconf.png" alt="MHRA Conference Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MHRA Conference</h3>
+                        <p class="project-description">The 2025 Leadership Conference: cure or curse of organizational health. A premier global gathering examining modern management challenges and executive excellence.</p>
+                        <div class="project-tags">
+                            <span class="tag">Conference</span>
+                            <span class="tag">Leadership</span>
+                        </div>
+                        <a href="https://mhraconference.mk" target="_blank" rel="noopener noreferrer" class="project-link">
+    Visit Project
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+    </svg>
+</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card" data-project="mhareno">
+                    <div class="project-image">
+                        <img src="assets/img/project-mhareno.png" alt="MHA Renovation Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MHA Renovation</h3>
+                        <p class="project-description">Swiss precision in interior construction and renovation. Expert drywall installation, painting, and demolition with meticulous detail, reliable delivery, and modern aesthetic results.</p>
+                        <div class="project-tags">
+                            <span class="tag">Construction</span>
+                            <span class="tag">Interior Design</span>
+                        </div>
+                        <a href="https://mha-renovation.ch" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit Project
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card glass-card" data-project="euroles">
+                    <div class="project-image">
+                        <img src="assets/img/project-euroles.png" alt="Euroles Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Euroles</h3>
+                        <p class="project-description">Premium window manufacturer from North Macedonia, high - end products only. Their expertise has led them to reach all around europe. First-class windows, doors, sliding doors, and architectural cabins. Excellence in materials and precision engineering delivered continent-wide.</p>
+                        <div class="project-tags">
+                            <span class="tag">Manufacturing</span>
+                            <span class="tag">Premium Products</span>
+                        </div>
+                        <a href="https://euroles.com.mk" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit Project
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card glass-card" data-project="lettofoods">
+                    <div class="project-image">
+                        <img src="assets/img/project-lettofoods.png" alt="Letto Foods Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Letto Foods</h3>
+                        <p class="project-description">Macedonia's snack excellence. Premium potato chips, corn snacks, chocolate, and sweet treats. One of the largest and most trusted snack manufacturers in the region.</p>
+                        <div class="project-tags">
+                            <span class="tag">Food Manufacturing</span>
+                            <span class="tag">Premium Snacks</span>
+                        </div>
+                        <a href="https://lettofoods.mk" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit Project
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card glass-card" data-project="illyrians">
+                    <div class="project-image">
+                        <img src="assets/img/project-illyrians.png" alt="Illyrians Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Illyrians</h3>
+                        <p class="project-description">North Macedonia's premier motorcycle and airsoft community. Uniting professionals, entrepreneurs, doctors, and enthusiasts. A dynamic organization for adventure, camaraderie, and purposeful experiences.</p>
+                        <div class="project-tags">
+                            <span class="tag">Community</span>
+                            <span class="tag">Motorcycle Team</span>
+                        </div>
+                        <a href="https://illyrians.mk" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit Project
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card glass-card" data-project="security">
+                    <div class="project-image">
+                        <img src="assets/img/project-security.png" alt="Security Ramadani Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Security Ramadani</h3>
+                        <p class="project-description">Comprehensive security solutions in Germany. Personal and family detective services, professional investigations, and specialized security expertise protecting what matters most.</p>
+                        <div class="project-tags">
+                            <span class="tag">Security</span>
+                            <span class="tag">Investigation</span>
+                        </div>
+                        <a href="https://security-ramadani.de" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit Project
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-container">
+            <div class="about-content glass-card">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="about-description">
+                            I am <span class="highlight">Atdhe Alimi</span>, a developer and web designer creating modern digital solutions and premium user experiences. With expertise in web design, development, and digital strategy, I help brands establish a powerful online presence.
+                        </p>
+                        <p class="about-description">
+                            My approach combines clean code, elegant design, and cutting-edge technology to deliver websites that not only look exceptional but also drive results. Every project is crafted with attention to detail and a commitment to excellence.
+                        </p>
+                        <div class="skills-grid">
+                            <div class="skill-tag">Web Design</div>
+                            <div class="skill-tag">Development</div>
+                            <div class="skill-tag">UI/UX</div>
+                            <div class="skill-tag">Branding</div>
+                            <div class="skill-tag">Frontend</div>
+                            <div class="skill-tag">Performance</div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Quality Focused</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Have a project in mind? Get in touch</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <form class="contact-form glass-card" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="form-underline"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="form-underline"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="form-underline"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">
+        <span>Send Message</span>
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+        </svg>
+    </button>
+                </form>
+
+                <div class="contact-info glass-card">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <a href="mailto:alimiatdhe9@gmail.com">alimiatdhe9@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+389 71 875 840</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Skopje, Macedonia</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 ALIMI DIGITAL.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

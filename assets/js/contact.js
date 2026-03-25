@@ -1,0 +1,1 @@
+/* Contact form functionality is now in main.js */
